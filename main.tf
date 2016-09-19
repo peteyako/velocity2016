@@ -44,7 +44,7 @@ resource "aws_instance" "web" {
 		Yo	= "yo" 	
 		
 	}
-	count = 2
+	count = 1
 }
 
 output "public_dns" {
